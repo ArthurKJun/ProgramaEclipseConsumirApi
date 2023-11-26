@@ -33,12 +33,12 @@
 						style="background-color: transparent; color: #fff; border: 2px solid #fff; font-size: 1.1rem; font-weight: bold; cursor: pointer; padding : 0.3rem "
 						id="soButton" onclick="Validar()">Entrar</button>
 					<!--                     <input type="submit" value="Entrar" onclick="logar()"> -->
-					<a style="background-color: transparent; color: #fff; border: 2px solid #fff; font-size: 1.1rem; font-weight: bold; cursor: pointer; padding : 0.3rem; margin-top : 0.2rem " href='loginAdministrador.jsp'>Cadastrar</a>
-				</form>
-
+					<a style="background-color: transparent; color: #fff; border: 2px solid #fff; font-size: 1.1rem; font-weight: bold; cursor: pointer; padding : 0.3rem; margin-top : 0.2rem " href='cadastroUsuario.jsp'>Cadastrar</a>
+				</form>			
+					
 			</div>
 
-
+			
 		</div>
 	</div>
 
@@ -59,11 +59,9 @@
     		alert('Informe a senha')
     		senha.focus()
     		return
-    	}  
-    	
+    	}      	
     	    	
-    }
-    
+    }    
     
     </script>
 
